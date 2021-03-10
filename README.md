@@ -33,6 +33,11 @@ pip install flask
 git clone https://github.com/alittlebroken/flask_blog.git
 ```
 
+* Create the sqlite3 database
+```bash
+python init_db.py
+```
+
 * Run the flask app
 ```bash
 export FLASK_APP=app.py
